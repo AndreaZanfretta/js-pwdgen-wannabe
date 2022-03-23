@@ -5,7 +5,7 @@ let cognome;
 let colore;
 
 nome = prompt("Come ti chiami?");
-surname = prompt("Qual è il tuo cognome?");
-color = prompt("Qual è il colore preferito?");
+cognome = prompt("Qual è il tuo cognome?");
+colore = prompt("Qual è il colore preferito?");
 
 let password = document.getElementById("password").innerHTML += nome + cognome + colore + "21";
