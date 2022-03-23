@@ -1,4 +1,18 @@
-/* https://mermaid.live/edit#pako:eNp1kr1uwjAQx1_F8hwqtWOGSkAoIMEE6hIzXOMjGBzbsh2qFvFgnftitQ1BqCjbRf79P87xiVaaI81pbcHsyLpgau_IYPA6ZGpYFqLaCbDwLbRCcgQr4ENIJEo3uIkUGZW8h6l0nTCmRokc97pVWmobwXECi3LoHNbqxsVTAimUeAuN8EiM1Y3xQVMkzaRHcy3xKJsk2VuvLA0Pqrekmv7bJCjuXUBKuNvOhMNPbfnNTXAiZPQ0VugQpTyq1mtixO9PWjLramddESQvzyF-muKXTDE1Wy8X6WsW5nJs8RruvG29by1cfs-8rMJRcCjm7zEqhneFguE8QYtSCnWIVCQ81MRVVhhPnK1iVaWDqybbuM3T3m1i_iV8Wa5AHiE19Oh8nKS-yjc0ow3aBgQP7-vEFCGM-h02yGgeRg72wChT58C1hoPHCRdeW5pvQTrMKIRbWX2piuZhKeygQkB4q82VOv8BHwD4EA */
+/* graph TD
+js -->A
+A[Dichiarazione variabile nome] --> B[dichiarazione variabile cognome]
+B --> C[Dichiarazione variabile colore]
+C --> D[Assegnazione valore a nome tramite prompt]
+D --> E[Assegnazione valore a cognome tramite prompt]
+E --> F[Assegnazione valore a colore tramite prompt]
+F --> G[Dichiarazione e assegnazione alla variabile password tramite id il proprio contenuto più nome, cognome, colore e 21]
+G --> M
+
+HTML --> H
+H[Creazione struttura] --> I[creare DIV con id password]
+I --> L[linkare con tag script src il nostro file .js]
+
+L --> M[Salvare e testare lo script] */
 
 let nome;
 let cognome;
